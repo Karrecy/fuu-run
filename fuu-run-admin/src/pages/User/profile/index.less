@@ -1,0 +1,132 @@
+.profileCard {
+  :global {
+    .ant-card-body {
+      padding: 24px;
+    }
+  }
+}
+
+.userInfoHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #f0f0f0;
+
+  .leftSection {
+    display: flex;
+    align-items: center;
+
+    .userMeta {
+      margin-left: 24px;
+  
+      h2 {
+        margin-bottom: 4px;
+        color: rgba(0, 0, 0, 0.85);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+      }
+  
+      p {
+        margin-bottom: 0;
+        color: rgba(0, 0, 0, 0.45);
+        line-height: 22px;
+      }
+    }
+  }
+
+  .rightSection {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .emailEnableSection {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      :global {
+        .ant-switch {
+          min-width: 88px;
+          height: 24px;
+          line-height: 24px;
+          
+          &.ant-switch-checked {
+            background: #52c41a;
+          }
+          
+          &:not(.ant-switch-checked) {
+            background: #ff4d4f;
+          }
+
+          .ant-switch-handle {
+            width: 20px;
+            height: 20px;
+            top: 2px;
+          }
+
+          .ant-switch-inner-checked {
+            margin-inline-start: 8px;
+            margin-inline-end: 24px;
+          }
+
+          .ant-switch-inner-unchecked {
+            margin-inline-start: 24px;
+            margin-inline-end: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+:global {
+  .ant-descriptions-item-label {
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 500;
+  }
+}
+
+.avatarContainer {
+  position: relative;
+  cursor: pointer;
+
+  .avatarWrapper {
+    position: relative;
+    display: inline-block;
+
+    &:hover {
+      .avatarMask {
+        opacity: 1;
+      }
+    }
+  }
+
+  .avatarMask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #fff;
+
+    .anticon {
+      font-size: 20px;
+      margin-bottom: 4px;
+    }
+
+    span {
+      font-size: 12px;
+    }
+  }
+} 

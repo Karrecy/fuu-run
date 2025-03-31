@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.karrecy.order.mapper.AddressMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.karrecy.order.domain.po.Address">
+        <id column="id" property="id" />
+        <result column="uid" property="uid" />
+        <result column="title" property="title" />
+        <result column="detail" property="detail" />
+        <result column="lon" property="lon" />
+        <result column="lat" property="lat" />
+        <result column="name" property="name" />
+        <result column="phone" property="phone" />
+        <result column="is_default" property="isDefault" />
+        <result column="create_time" property="createTime" />
+        <result column="create_id" property="createId" />
+        <result column="update_time" property="updateTime" />
+        <result column="update_id" property="updateId" />
+    </resultMap>
+
+</mapper>

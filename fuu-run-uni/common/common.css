@@ -1,0 +1,208 @@
+.ellipsisMy {
+	white-space: nowrap; /* 禁止换行 */
+	overflow: hidden; /* 超出部分隐藏 */
+	text-overflow: ellipsis; /* 超出部分显示省略号 */
+}
+.page {
+	width: 100%;
+	height: 100%;
+}
+.box {
+	width: 92%;
+	margin-left: 4%;
+	box-sizing: border-box;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	background-color: #fff;
+}
+.nut-tag {
+	font-size: small !important;
+	margin-right: 8px !important;
+	margin-bottom: 8px !important;
+	border-radius: 15px !important;
+	padding: 1px 10px !important;
+}
+
+.nut-cell {
+	align-items: center;
+	margin: 0 0 !important;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+}
+.nut-cell image {
+	width: 25px;
+	height: 25px;
+}
+.nut-cell .nut-cell__title {
+	padding: 0 10px;
+}
+.title {
+	white-space: nowrap; /* 禁止换行 */
+	overflow: hidden; /* 超出部分隐藏 */
+	text-overflow: ellipsis; /* 超出部分显示省略号 */
+}
+
+.nut-icon{
+	vertical-align: middle;
+}
+
+.nut-address .nut-address__exist {
+	margin-bottom: 30px;
+}
+.nut-input__value {
+	padding-left: 6px !important;
+}
+.nut-tab-pane {
+	background-color: transparent !important;
+}
+
+
+
+.orderBot {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 12px 10px 18px;
+	}
+
+	.orderBot .orderTime {
+		display: flex;
+		align-self: center;
+		font-size: small;
+		color: #5f5f5f;
+	}
+
+	.orderTop {
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 12px;
+	}
+	.orderDesc {
+		    padding: 4px 30px;
+		    color: #607D8B;
+		  overflow: hidden;
+		  display: -webkit-box; /* 必须设置为 flex 或者 -webkit-box */
+		  -webkit-box-orient: vertical; /* 设置为纵向排列 */
+		  -webkit-line-clamp: 2; /* 限制显示两行 */
+		  line-height: 1.5; /* 设置行高，适配文本 */
+		  height: auto; /* 自动高度 */
+		  text-overflow: ellipsis; /* 超出部分显示省略号 */
+		  white-space: normal; /* 允许换行 */
+	}
+
+	.orderTop .tag {
+		flex-grow: 1;
+		padding: 0 6px;
+		font-size: large;
+		font-weight: bold;
+	}
+
+	.orderAddress {
+		display: flex;
+	}
+
+	.orderAddress .left {
+		padding: 5px 0;
+		width: 78%;
+	}
+
+	.orderAddress .right {
+		display: flex;
+		align-items: center;
+		font-size: medium;
+		font-weight: bold;
+		color: #ff5200;
+	}
+	
+	.nut-divider {
+		padding: 0 30px !important;
+	}
+	
+	.nut-countdown {
+		    display: inline-block !important;
+		    color: #F44336 !important;
+		    font-size: large !important;
+	}
+	.custom-content {
+		padding: 10px 10px 50px;
+	}
+	
+	.fileBox {
+		border-radius: 5px;
+		position: relative;
+	  margin-left: 5%;
+	  margin-top: 10px;
+	  width: 90%;
+	  height: 45px;
+	  background-color: #f4f3fc;
+	}
+	
+	.fileBox .title {
+	  float: left;
+	  height: 35px;
+	  width: 60%;
+	  margin-top: 5px;
+	}
+	.fileBox .title .name {
+	  width: 100%;
+	  height: 20px;
+	  line-height: 20px;
+	  text-align: left;
+	  font-size:medium;
+	  -webkit-box-orient: vertical;
+	  -webkit-line-clamp: 1;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+	}
+	.fileBox .title .size {
+	  width: 100%;
+	  height: 15px;
+	  line-height: 15px;
+	  text-align: left;
+	  font-size: small;
+	  color: #444444;
+	  -webkit-box-orient: vertical;
+	  -webkit-line-clamp: 1;
+	
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+	}
+	.fileDelIcon {
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		right: 5px;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+	
+	.nut-picker__bar {
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    height: 46px;
+	}
+	.nut-picker__title {
+	    flex: 1;
+	    font-size: var(--nut-picker-bar-title-font-size, 16px);
+	    font-weight: var(--nut-picker-bar-title-font-weight, normal);
+	    color: var(--nut-picker-bar-title-color, var(--nut-title-color, #1a1a1a));
+	    text-align: center;
+	    width: 100%;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	}
+	
+	.nut-skeleton {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.height20 {
+		width: 100%;
+		height: 20px;
+	}

@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "nutui-uniapp": "^1.8.1"
+  },
+  "devDependencies": {
+    "sass": "^1.81.0"
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.karrecy.payment.mapper.CapitalFlowMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.karrecy.payment.domain.po.CapitalFlow">
+        <id column="id" property="id" />
+        <result column="order_id" property="orderId" />
+        <result column="agent_id" property="agentId" />
+        <result column="profit_agent" property="profitAgent" />
+        <result column="runner_id" property="runnerId" />
+        <result column="profit_runner" property="profitRunner" />
+        <result column="user_id" property="userId" />
+        <result column="profit_user" property="profitUser" />
+        <result column="profit_plat" property="profitPlat" />
+        <result column="create_time" property="createTime" />
+        <result column="type" property="type" />
+    </resultMap>
+
+</mapper>
