@@ -1,1 +1,0 @@
-{"doc":" 支付回调相关接口\n","fields":[],"enumConstants":[],"methods":[{"name":"paySuccessNotify","paramTypes":["java.lang.String","javax.servlet.http.HttpServletRequest"],"doc":" 支付成功回调\n"},{"name":"refundNotify","paramTypes":["java.lang.String","javax.servlet.http.HttpServletRequest"],"doc":" 退款成功回调\n"}],"constructors":[]}
