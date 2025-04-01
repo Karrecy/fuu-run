@@ -123,8 +123,9 @@
 1. idea打开后端fuu-run目录
 2. 连接并创建数据库fuudb
 3. 执行init.sql脚本，初始化数据库
-4. 引入依赖，构建项目
-5. 运行
+4. 导入支付密钥文件 至 recourse下的cert/apiclient_key.pem和cert/apiclient_cert.pem
+5. 引入依赖，构建项目
+6. 运行
 
 ### 2.4项目前端代码运行步骤
 
