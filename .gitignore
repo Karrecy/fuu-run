@@ -38,7 +38,7 @@ package-lock.json
 *.ear
 *.log
 *.swp
-/target/
+target/
 /bin/
 /build/
 /out/
