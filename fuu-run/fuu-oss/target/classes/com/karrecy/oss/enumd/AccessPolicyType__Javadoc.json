@@ -1,0 +1,1 @@
+{"doc":" 桶访问策略配置\n","fields":[{"name":"type","doc":" 桶 权限类型\n"},{"name":"acl","doc":" 文件对象 权限类型\n"},{"name":"policyType","doc":" 桶策略类型\n"}],"enumConstants":[{"name":"PRIVATE","doc":" private\n"},{"name":"PUBLIC","doc":" public\n"},{"name":"CUSTOM","doc":" custom\n"}],"methods":[],"constructors":[]}

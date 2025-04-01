@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.karrecy.system.mapper.UserWxMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.karrecy.common.core.domain.entity.UserWx">
+        <id column="id" property="id" />
+        <result column="uid" property="uid" />
+        <result column="openid" property="openid" />
+        <result column="avatar" property="avatar" />
+        <result column="nickname" property="nickname" />
+        <result column="phone" property="phone" />
+        <result column="points" property="points" />
+        <result column="is_runner" property="isRunner" />
+        <result column="can_order" property="canOrder" />
+        <result column="can_take" property="canTake" />
+        <result column="school_id" property="schoolId" />
+        <result column="realname" property="realname" />
+        <result column="gender" property="gender" />
+        <result column="credit_score" property="creditScore" />
+
+    </resultMap>
+    <resultMap id="UserVo" type="com.karrecy.common.core.domain.entity.User">
+        <id column="uid" property="uid" />
+        <result column="device_type" property="deviceType" />
+        <result column="create_time" property="createTime" />
+        <result column="login_time" property="loginTime" />
+        <result column="login_ip" property="loginIp" />
+        <result column="login_region" property="loginRegion" />
+        <result column="user_type" property="userType" />
+        <result column="create_id" property="createId" />
+        <result column="update_time" property="updateTime" />
+        <result column="update_id" property="updateId" />
+        <association property="userWx" resultMap="BaseResultMap"/>
+    </resultMap>
+    <select id="selectPageUserList" resultMap="UserVo">
+        SELECT
+            u.*, userWx.*
+        FROM
+            user_wx userWx
+        left join user u on u.uid = userWx.uid
+        ${ew.getCustomSqlSegment}
+    </select>
+
+</mapper>

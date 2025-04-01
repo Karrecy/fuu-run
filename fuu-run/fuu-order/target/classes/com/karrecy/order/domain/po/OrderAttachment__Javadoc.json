@@ -1,0 +1,1 @@
+{"doc":" 订单附件类\n","fields":[{"name":"orderId","doc":" 订单id\n"},{"name":"fileName","doc":" 文件原始名\n"},{"name":"fileUrl","doc":" 文件地址\n"},{"name":"fileType","doc":" 文件后缀\n"},{"name":"fileSize","doc":" 文件大小字节\n"},{"name":"type","doc":" 类型 1订单附件 2完成凭证 3申诉凭证\n"}],"enumConstants":[],"methods":[],"constructors":[]}

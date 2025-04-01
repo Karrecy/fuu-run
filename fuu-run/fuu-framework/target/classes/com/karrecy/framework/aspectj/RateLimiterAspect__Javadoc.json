@@ -1,0 +1,1 @@
+{"doc":" 限流处理\n","fields":[{"name":"parser","doc":" 定义spel表达式解析器\n"},{"name":"parserContext","doc":" 定义spel解析模版\n"},{"name":"context","doc":" 定义spel上下文对象进行解析\n"},{"name":"pnd","doc":" 方法参数解析器\n"}],"enumConstants":[],"methods":[],"constructors":[]}

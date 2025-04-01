@@ -1,0 +1,54 @@
+{
+  "groups": [
+    {
+      "name": "wx.pay",
+      "type": "com.karrecy.payment.properties.WxPayProperties",
+      "sourceType": "com.karrecy.payment.properties.WxPayProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "wx.pay.api-v3-key",
+      "type": "java.lang.String",
+      "description": "apiV3key",
+      "sourceType": "com.karrecy.payment.properties.WxPayProperties"
+    },
+    {
+      "name": "wx.pay.app-id",
+      "type": "java.lang.String",
+      "description": "设置微信公众号或者小程序等的appid",
+      "sourceType": "com.karrecy.payment.properties.WxPayProperties"
+    },
+    {
+      "name": "wx.pay.mch-id",
+      "type": "java.lang.String",
+      "description": "微信支付商户号",
+      "sourceType": "com.karrecy.payment.properties.WxPayProperties"
+    },
+    {
+      "name": "wx.pay.private-cert-path",
+      "type": "java.lang.String",
+      "description": "证书相对路径",
+      "sourceType": "com.karrecy.payment.properties.WxPayProperties"
+    },
+    {
+      "name": "wx.pay.private-key-path",
+      "type": "java.lang.String",
+      "description": "证书相对路径",
+      "sourceType": "com.karrecy.payment.properties.WxPayProperties"
+    },
+    {
+      "name": "wx.pay.refund-url",
+      "type": "java.lang.String",
+      "description": "退款回调地址",
+      "sourceType": "com.karrecy.payment.properties.WxPayProperties"
+    },
+    {
+      "name": "wx.pay.return-url",
+      "type": "java.lang.String",
+      "description": "下单回调地址",
+      "sourceType": "com.karrecy.payment.properties.WxPayProperties"
+    }
+  ],
+  "hints": []
+}

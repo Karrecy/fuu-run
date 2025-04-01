@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.karrecy.order.mapper.OrderAppealMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.karrecy.order.domain.po.OrderAppeal">
+        <id column="id" property="id" />
+        <result column="order_id" property="orderId" />
+        <result column="school_id" property="schoolId" />
+        <result column="appeal_time" property="appealTime" />
+        <result column="appeal_reason" property="appealReason" />
+        <result column="appeal_status" property="appealStatus" />
+        <result column="update_time" property="updateTime" />
+        <result column="remarks" property="remarks" />
+        <result column="update_id" property="updateId" />
+        <result column="update_type" property="updateType" />
+    </resultMap>
+
+</mapper>

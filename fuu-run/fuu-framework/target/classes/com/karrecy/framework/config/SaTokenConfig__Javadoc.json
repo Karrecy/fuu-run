@@ -1,0 +1,1 @@
+{"doc":" sa-token 配置\n","fields":[],"enumConstants":[],"methods":[{"name":"addInterceptors","paramTypes":["org.springframework.web.servlet.config.annotation.InterceptorRegistry"],"doc":" 注册sa-token的拦截器\n"},{"name":"stpInterface","paramTypes":[],"doc":" 权限接口实现(使用bean注入方便用户替换)\n"},{"name":"saTokenDao","paramTypes":[],"doc":" 自定义dao层存储\n"}],"constructors":[]}

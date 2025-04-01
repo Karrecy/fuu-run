@@ -1,0 +1,1 @@
+{"doc":" 通用 OSS服务\n","fields":[],"enumConstants":[],"methods":[{"name":"selectUrlByIds","paramTypes":["java.lang.String"],"doc":" 通过ossId查询对应的url\n\n @param ossIds ossId串逗号分隔\n @return url串逗号分隔\n"}],"constructors":[]}

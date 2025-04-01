@@ -1,0 +1,1 @@
+{"doc":" 服务类型\n","fields":[],"enumConstants":[{"name":"PICKUP_DELIVERY","doc":" 帮取送\n"},{"name":"PURCHASE","doc":" 帮买\n"},{"name":"GENERAL_HELP","doc":" 万能帮\n"}],"methods":[],"constructors":[]}

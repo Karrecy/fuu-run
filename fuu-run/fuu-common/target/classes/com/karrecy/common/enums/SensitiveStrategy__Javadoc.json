@@ -1,0 +1,1 @@
+{"doc":" 脱敏策略\n","fields":[],"enumConstants":[{"name":"ID_CARD","doc":" 身份证脱敏\n"},{"name":"PHONE","doc":" 手机号脱敏\n"},{"name":"ADDRESS","doc":" 地址脱敏\n"},{"name":"EMAIL","doc":" 邮箱脱敏\n"},{"name":"BANK_CARD","doc":" 银行卡\n"}],"methods":[],"constructors":[]}

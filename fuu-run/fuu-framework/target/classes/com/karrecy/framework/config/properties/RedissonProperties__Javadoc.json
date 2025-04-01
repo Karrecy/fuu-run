@@ -1,0 +1,1 @@
+{"doc":" Redisson 配置属性\n","fields":[{"name":"keyPrefix","doc":" redis缓存key前缀\n"},{"name":"threads","doc":" 线程池数量,默认值 = 当前处理核数量 * 2\n"},{"name":"nettyThreads","doc":" Netty线程池数量,默认值 = 当前处理核数量 * 2\n"},{"name":"singleServerConfig","doc":" 单机服务配置\n"},{"name":"clusterServersConfig","doc":" 集群服务配置\n"}],"enumConstants":[],"methods":[],"constructors":[]}

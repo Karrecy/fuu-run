@@ -1,0 +1,1 @@
+{"doc":" OSS对象存储对象\n","fields":[{"name":"ossId","doc":" 对象存储主键\n"},{"name":"type","doc":" 业务类型\n"},{"name":"fileSize","doc":" 文件大小\n"},{"name":"fileName","doc":" 文件名\n"},{"name":"originalName","doc":" 原名\n"},{"name":"fileSuffix","doc":" 文件后缀名\n"},{"name":"url","doc":" URL地址\n"},{"name":"service","doc":" 服务商\n"}],"enumConstants":[],"methods":[],"constructors":[]}

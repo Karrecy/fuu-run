@@ -1,0 +1,1 @@
+{"doc":" <p>\n  服务实现类\n </p>\n","fields":[],"enumConstants":[],"methods":[{"name":"selectPageSchoolList","paramTypes":["com.karrecy.order.domain.po.School","com.karrecy.common.core.domain.PageQuery"],"doc":" 校区分页查询\n @param school\n @param pageQuery\n @return\n"}],"constructors":[]}

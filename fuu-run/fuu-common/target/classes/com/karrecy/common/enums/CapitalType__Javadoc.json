@@ -1,0 +1,1 @@
+{"doc":" 明细类型\n","fields":[],"enumConstants":[{"name":"ORDER_COMPLETE","doc":" 订单收益\n"},{"name":"RECODE_RUNNER","doc":" 跑腿提现\n"},{"name":"RECODE_AGENT","doc":" 代理提现\n"}],"methods":[],"constructors":[]}

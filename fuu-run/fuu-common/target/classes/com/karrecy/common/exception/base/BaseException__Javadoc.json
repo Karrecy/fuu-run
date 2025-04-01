@@ -1,0 +1,1 @@
+{"doc":" 基础异常\n","fields":[{"name":"module","doc":" 所属模块\n"},{"name":"code","doc":" 错误码\n"},{"name":"args","doc":" 错误码对应的参数\n"},{"name":"defaultMessage","doc":" 错误消息\n"}],"enumConstants":[],"methods":[],"constructors":[]}

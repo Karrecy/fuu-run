@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.karrecy.order.mapper.RunnerApplyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.karrecy.order.domain.po.RunnerApply">
+        <id column="id" property="id" />
+        <result column="uid" property="uid" />
+        <result column="school_id" property="schoolId" />
+        <result column="realname" property="realname" />
+        <result column="gender" property="gender" />
+        <result column="student_card_url" property="studentCardUrl" />
+        <result column="create_time" property="createTime" />
+        <result column="status" property="status" />
+        <result column="remarks" property="remarks" />
+        <result column="update_time" property="updateTime" />
+        <result column="update_id" property="updateId" />
+    </resultMap>
+
+</mapper>

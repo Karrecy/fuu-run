@@ -1,0 +1,1 @@
+{"doc":" 订单业务异常\n","fields":[{"name":"code","doc":" 错误码\n"},{"name":"message","doc":" 错误提示\n"},{"name":"detailMessage","doc":" 错误明细，内部调试错误\n"}],"enumConstants":[],"methods":[],"constructors":[{"name":"<init>","paramTypes":[],"doc":" 空构造方法，避免反序列化问题\n"}]}

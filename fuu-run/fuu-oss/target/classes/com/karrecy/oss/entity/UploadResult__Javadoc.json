@@ -1,0 +1,1 @@
+{"doc":" 上传返回体\n","fields":[{"name":"url","doc":" 文件路径\n"},{"name":"filename","doc":" 文件名\n"}],"enumConstants":[],"methods":[],"constructors":[]}

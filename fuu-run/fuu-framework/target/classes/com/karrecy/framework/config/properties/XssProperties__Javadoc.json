@@ -1,0 +1,1 @@
+{"doc":" xss过滤 配置属性\n","fields":[{"name":"enabled","doc":" 过滤开关\n"},{"name":"excludes","doc":" 排除链接（多个用逗号分隔）\n"},{"name":"urlPatterns","doc":" 匹配链接\n"}],"enumConstants":[],"methods":[],"constructors":[]}

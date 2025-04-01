@@ -1,0 +1,1 @@
+{"doc":"","fields":[{"name":"appId","doc":" 设置微信公众号或者小程序等的appid\n"},{"name":"mchId","doc":" 微信支付商户号\n"},{"name":"apiV3Key","doc":" apiV3key\n"},{"name":"privateKeyPath","doc":" 证书相对路径\n"},{"name":"privateCertPath","doc":" 证书相对路径\n"},{"name":"returnUrl","doc":" 下单回调地址\n"},{"name":"refundUrl","doc":" 退款回调地址\n"}],"enumConstants":[],"methods":[],"constructors":[]}

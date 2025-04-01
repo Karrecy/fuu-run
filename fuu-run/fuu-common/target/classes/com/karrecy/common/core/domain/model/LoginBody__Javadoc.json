@@ -1,0 +1,1 @@
+{"doc":" 用户登录对象\n","fields":[{"name":"username","doc":" 用户名\n"},{"name":"password","doc":" 用户密码\n"}],"enumConstants":[],"methods":[],"constructors":[]}

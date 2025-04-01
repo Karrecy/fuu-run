@@ -1,0 +1,1 @@
+{"doc":" 系统文件相关信息\n","fields":[{"name":"dirName","doc":" 盘符路径\n"},{"name":"sysTypeName","doc":" 盘符类型\n"},{"name":"typeName","doc":" 文件类型\n"},{"name":"total","doc":" 总大小\n"},{"name":"free","doc":" 剩余大小\n"},{"name":"used","doc":" 已经使用量\n"},{"name":"usage","doc":" 资源的使用率\n"}],"enumConstants":[],"methods":[],"constructors":[]}

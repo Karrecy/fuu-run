@@ -1,0 +1,1 @@
+{"doc":" 对象存储常量\n","fields":[{"name":"DEFAULT_CONFIG_KEY","doc":" 默认配置KEY\n"},{"name":"PEREVIEW_LIST_RESOURCE_KEY","doc":" 预览列表资源开关Key\n"},{"name":"SYSTEM_DATA_IDS","doc":" 系统数据ids\n"},{"name":"CLOUD_SERVICE","doc":" 云服务商\n"},{"name":"IS_HTTPS","doc":" https 状态\n"}],"enumConstants":[],"methods":[],"constructors":[]}

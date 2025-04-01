@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.karrecy.order.mapper.SchoolMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.karrecy.order.domain.po.School">
+        <id column="id" property="id" />
+        <result column="belong_uid" property="belongUid" />
+        <result column="adcode" property="adcode" />
+        <result column="name" property="name" />
+        <result column="logo" property="logo" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="status" property="status" />
+        <result column="profit_plat" property="profitPlat" />
+        <result column="profit_agent" property="profitAgent" />
+        <result column="profit_runner" property="profitRunner" />
+        <result column="floor_price" property="floorPrice" />
+    </resultMap>
+    <select id="selectSchoolList" resultMap="BaseResultMap">
+        select * from school ${ew.getCustomSqlSegment}
+    </select>
+</mapper>

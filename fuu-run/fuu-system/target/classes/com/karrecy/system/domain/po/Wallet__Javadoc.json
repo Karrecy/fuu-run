@@ -1,0 +1,1 @@
+{"doc":" <p>\n 用户账户表\n </p>\n","fields":[{"name":"uid","doc":" uid\n"},{"name":"withdrawn","doc":" 当前余额\n"},{"name":"balance","doc":" 已提现\n"},{"name":"createTime","doc":" 创建时间\n"},{"name":"updateTime","doc":" 更新时间\n"}],"enumConstants":[],"methods":[],"constructors":[]}

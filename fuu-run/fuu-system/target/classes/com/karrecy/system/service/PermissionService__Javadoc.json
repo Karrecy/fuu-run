@@ -1,0 +1,1 @@
+{"doc":" 用户权限处理\n","fields":[],"enumConstants":[],"methods":[{"name":"getMenuPermission","paramTypes":["com.karrecy.common.core.domain.entity.User"],"doc":" 获取菜单数据权限\n\n @param user 用户信息\n @return 菜单权限信息\n"}],"constructors":[]}

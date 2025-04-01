@@ -1,0 +1,1 @@
+{"doc":" minio策略配置\n","fields":[{"name":"type","doc":" 类型\n"}],"enumConstants":[{"name":"READ","doc":" 只读\n"},{"name":"WRITE","doc":" 只写\n"},{"name":"READ_WRITE","doc":" 读写\n"}],"methods":[],"constructors":[]}

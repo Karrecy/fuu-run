@@ -1,0 +1,107 @@
+{
+  "groups": [
+    {
+      "name": "email",
+      "type": "com.karrecy.common.config.properties.EmailProperties",
+      "sourceType": "com.karrecy.common.config.properties.EmailProperties"
+    },
+    {
+      "name": "fuu",
+      "type": "com.karrecy.common.config.FuuConfig",
+      "sourceType": "com.karrecy.common.config.FuuConfig"
+    },
+    {
+      "name": "wx.miniapp",
+      "type": "com.karrecy.common.config.properties.WxMaProperties",
+      "sourceType": "com.karrecy.common.config.properties.WxMaProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "email.host",
+      "type": "java.lang.String",
+      "sourceType": "com.karrecy.common.config.properties.EmailProperties"
+    },
+    {
+      "name": "email.pass",
+      "type": "java.lang.String",
+      "sourceType": "com.karrecy.common.config.properties.EmailProperties"
+    },
+    {
+      "name": "email.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.karrecy.common.config.properties.EmailProperties"
+    },
+    {
+      "name": "email.user",
+      "type": "java.lang.String",
+      "sourceType": "com.karrecy.common.config.properties.EmailProperties"
+    },
+    {
+      "name": "fuu.auto-complete-ttl",
+      "type": "java.lang.Long",
+      "description": "超时未完成自动完成时长 (小时)",
+      "sourceType": "com.karrecy.common.config.FuuConfig"
+    },
+    {
+      "name": "fuu.completion-images-limit",
+      "type": "java.lang.Integer",
+      "description": "完成订单凭证上限 （张）",
+      "sourceType": "com.karrecy.common.config.FuuConfig"
+    },
+    {
+      "name": "fuu.copyright-year",
+      "type": "java.lang.String",
+      "description": "版权年份",
+      "sourceType": "com.karrecy.common.config.FuuConfig"
+    },
+    {
+      "name": "fuu.credit-deduction",
+      "type": "java.lang.Integer",
+      "description": "信用分每次扣除",
+      "sourceType": "com.karrecy.common.config.FuuConfig"
+    },
+    {
+      "name": "fuu.credit-lower-limit",
+      "type": "java.lang.Integer",
+      "description": "信用分下限",
+      "sourceType": "com.karrecy.common.config.FuuConfig"
+    },
+    {
+      "name": "fuu.credit-upper-limit",
+      "type": "java.lang.Integer",
+      "description": "信用分上限（初始）",
+      "sourceType": "com.karrecy.common.config.FuuConfig"
+    },
+    {
+      "name": "fuu.max-address",
+      "type": "java.lang.Integer",
+      "description": "用户地址上限",
+      "sourceType": "com.karrecy.common.config.FuuConfig"
+    },
+    {
+      "name": "fuu.name",
+      "type": "java.lang.String",
+      "description": "项目名称",
+      "sourceType": "com.karrecy.common.config.FuuConfig"
+    },
+    {
+      "name": "fuu.pay-cancel-ttl",
+      "type": "java.lang.Long",
+      "description": "超时未支付取消时长 (分钟)",
+      "sourceType": "com.karrecy.common.config.FuuConfig"
+    },
+    {
+      "name": "fuu.version",
+      "type": "java.lang.String",
+      "description": "版本",
+      "sourceType": "com.karrecy.common.config.FuuConfig"
+    },
+    {
+      "name": "wx.miniapp.configs",
+      "type": "java.util.List<com.karrecy.common.config.properties.WxMaProperties$Config>",
+      "sourceType": "com.karrecy.common.config.properties.WxMaProperties"
+    }
+  ],
+  "hints": []
+}

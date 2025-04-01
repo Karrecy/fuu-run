@@ -1,0 +1,1 @@
+{"doc":" redis缓存key前缀处理\n","fields":[],"enumConstants":[],"methods":[{"name":"map","paramTypes":["java.lang.String"],"doc":" 增加前缀\n"},{"name":"unmap","paramTypes":["java.lang.String"],"doc":" 去除前缀\n"}],"constructors":[]}

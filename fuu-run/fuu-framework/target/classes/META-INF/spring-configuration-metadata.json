@@ -1,0 +1,209 @@
+{
+  "groups": [
+    {
+      "name": "amap",
+      "type": "com.karrecy.framework.config.properties.AmapProperties",
+      "sourceType": "com.karrecy.framework.config.properties.AmapProperties"
+    },
+    {
+      "name": "chat.websocket",
+      "type": "com.karrecy.framework.config.properties.WebSocketProperties",
+      "sourceType": "com.karrecy.framework.config.properties.WebSocketProperties"
+    },
+    {
+      "name": "redisson",
+      "type": "com.karrecy.framework.config.properties.RedissonProperties",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties"
+    },
+    {
+      "name": "redisson.cluster-servers-config",
+      "type": "com.karrecy.framework.config.properties.RedissonProperties$ClusterServersConfig",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties",
+      "sourceMethod": "getClusterServersConfig()"
+    },
+    {
+      "name": "redisson.single-server-config",
+      "type": "com.karrecy.framework.config.properties.RedissonProperties$SingleServerConfig",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties",
+      "sourceMethod": "getSingleServerConfig()"
+    },
+    {
+      "name": "security",
+      "type": "com.karrecy.framework.config.properties.SecurityProperties",
+      "sourceType": "com.karrecy.framework.config.properties.SecurityProperties"
+    },
+    {
+      "name": "xss",
+      "type": "com.karrecy.framework.config.properties.XssProperties",
+      "sourceType": "com.karrecy.framework.config.properties.XssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "amap.key",
+      "type": "java.lang.String",
+      "description": "key",
+      "sourceType": "com.karrecy.framework.config.properties.AmapProperties"
+    },
+    {
+      "name": "chat.websocket.boss",
+      "type": "java.lang.Integer",
+      "description": "Boss Group： 一般设置为 1 到 2 个线程。由于 boss 组负责接受连接请求，通常不需要太多线程。 Work Group： 线程数量建议设置为 CPU 核心数的 2 倍到 4 倍。例如，如果服务器有 8 个 CPU 核心，可以设置为 16 到 32 个线程。可以使用以下公式：     Work Threads = Core CPU Count × (2 到 4)",
+      "sourceType": "com.karrecy.framework.config.properties.WebSocketProperties"
+    },
+    {
+      "name": "chat.websocket.path",
+      "type": "java.lang.String",
+      "sourceType": "com.karrecy.framework.config.properties.WebSocketProperties"
+    },
+    {
+      "name": "chat.websocket.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.karrecy.framework.config.properties.WebSocketProperties"
+    },
+    {
+      "name": "chat.websocket.work",
+      "type": "java.lang.Integer",
+      "sourceType": "com.karrecy.framework.config.properties.WebSocketProperties"
+    },
+    {
+      "name": "redisson.cluster-servers-config.client-name",
+      "type": "java.lang.String",
+      "description": "客户端名称",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.idle-connection-timeout",
+      "type": "java.lang.Integer",
+      "description": "连接空闲超时，单位：毫秒",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.master-connection-minimum-idle-size",
+      "type": "java.lang.Integer",
+      "description": "master最小空闲连接数",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.master-connection-pool-size",
+      "type": "java.lang.Integer",
+      "description": "master连接池大小",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.read-mode",
+      "type": "org.redisson.config.ReadMode",
+      "description": "读取模式",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.slave-connection-minimum-idle-size",
+      "type": "java.lang.Integer",
+      "description": "slave最小空闲连接数",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.slave-connection-pool-size",
+      "type": "java.lang.Integer",
+      "description": "slave连接池大小",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.subscription-connection-pool-size",
+      "type": "java.lang.Integer",
+      "description": "发布和订阅连接池大小",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.subscription-mode",
+      "type": "org.redisson.config.SubscriptionMode",
+      "description": "订阅模式",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.timeout",
+      "type": "java.lang.Integer",
+      "description": "命令等待超时，单位：毫秒",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.key-prefix",
+      "type": "java.lang.String",
+      "description": "redis缓存key前缀",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties"
+    },
+    {
+      "name": "redisson.netty-threads",
+      "type": "java.lang.Integer",
+      "description": "Netty线程池数量,默认值 = 当前处理核数量 * 2",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties"
+    },
+    {
+      "name": "redisson.single-server-config.client-name",
+      "type": "java.lang.String",
+      "description": "客户端名称",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$SingleServerConfig"
+    },
+    {
+      "name": "redisson.single-server-config.connection-minimum-idle-size",
+      "type": "java.lang.Integer",
+      "description": "最小空闲连接数",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$SingleServerConfig"
+    },
+    {
+      "name": "redisson.single-server-config.connection-pool-size",
+      "type": "java.lang.Integer",
+      "description": "连接池大小",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$SingleServerConfig"
+    },
+    {
+      "name": "redisson.single-server-config.idle-connection-timeout",
+      "type": "java.lang.Integer",
+      "description": "连接空闲超时，单位：毫秒",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$SingleServerConfig"
+    },
+    {
+      "name": "redisson.single-server-config.subscription-connection-pool-size",
+      "type": "java.lang.Integer",
+      "description": "发布和订阅连接池大小",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$SingleServerConfig"
+    },
+    {
+      "name": "redisson.single-server-config.timeout",
+      "type": "java.lang.Integer",
+      "description": "命令等待超时，单位：毫秒",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties$SingleServerConfig"
+    },
+    {
+      "name": "redisson.threads",
+      "type": "java.lang.Integer",
+      "description": "线程池数量,默认值 = 当前处理核数量 * 2",
+      "sourceType": "com.karrecy.framework.config.properties.RedissonProperties"
+    },
+    {
+      "name": "security.excludes",
+      "type": "java.lang.String[]",
+      "description": "排除路径",
+      "sourceType": "com.karrecy.framework.config.properties.SecurityProperties"
+    },
+    {
+      "name": "xss.enabled",
+      "type": "java.lang.String",
+      "description": "过滤开关",
+      "sourceType": "com.karrecy.framework.config.properties.XssProperties"
+    },
+    {
+      "name": "xss.excludes",
+      "type": "java.lang.String",
+      "description": "排除链接（多个用逗号分隔）",
+      "sourceType": "com.karrecy.framework.config.properties.XssProperties"
+    },
+    {
+      "name": "xss.url-patterns",
+      "type": "java.lang.String",
+      "description": "匹配链接",
+      "sourceType": "com.karrecy.framework.config.properties.XssProperties"
+    }
+  ],
+  "hints": []
+}

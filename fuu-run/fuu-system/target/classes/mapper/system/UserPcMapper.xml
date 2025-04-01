@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.karrecy.system.mapper.UserPcMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.karrecy.common.core.domain.entity.UserPc">
+        <id column="id" property="id" />
+        <result column="uid" property="uid" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="phone" property="phone" />
+        <result column="name" property="name" />
+        <result column="student_card_url" property="studentCardUrl" />
+        <result column="id_card_url" property="idCardUrl" />
+        <result column="sex" property="sex" />
+        <result column="status" property="status" />
+        <result column="avatar" property="avatar" />
+        <result column="email" property="email" />
+        <result column="email_enable" property="emailEnable" />
+
+    </resultMap>
+    <resultMap id="UserVo" type="com.karrecy.common.core.domain.entity.User">
+        <id column="uid" property="uid" />
+        <result column="device_type" property="deviceType" />
+        <result column="create_time" property="createTime" />
+        <result column="login_time" property="loginTime" />
+        <result column="login_ip" property="loginIp" />
+        <result column="login_region" property="loginRegion" />
+        <result column="user_type" property="userType" />
+        <result column="create_id" property="createId" />
+        <result column="update_time" property="updateTime" />
+        <result column="update_id" property="updateId" />
+        <association property="userPc" resultMap="BaseResultMap"/>
+    </resultMap>
+
+    <select id="selectPageUserList" resultMap="UserVo">
+        SELECT
+        u.*, userPc.*
+        FROM
+        user_pc userPc
+        left join user u on u.uid = userPc.uid
+        ${ew.getCustomSqlSegment}
+    </select>
+
+
+</mapper>

@@ -1,0 +1,1 @@
+{"doc":" 微信支付相关配置\n","fields":[],"enumConstants":[],"methods":[{"name":"wxPayService","paramTypes":[],"doc":" 构造微信支付服务对象.\n\n @return 微信支付service\n"}],"constructors":[]}

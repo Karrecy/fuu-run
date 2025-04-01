@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.karrecy.order.mapper.OrderChatMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.karrecy.order.domain.po.OrderChat">
+        <id column="id" property="id" />
+        <result column="order_id" property="orderId" />
+        <result column="sender_id" property="senderId" />
+        <result column="sender_type" property="senderType" />
+        <result column="recipients" property="recipients" />
+        <result column="msg_type" property="msgType" />
+        <result column="message" property="message" />
+        <result column="readIds" property="readIds" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+</mapper>

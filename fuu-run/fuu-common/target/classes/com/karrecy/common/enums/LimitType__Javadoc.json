@@ -1,0 +1,1 @@
+{"doc":" 限流类型\n","fields":[],"enumConstants":[{"name":"DEFAULT","doc":" 默认策略全局限流\n"},{"name":"IP","doc":" 根据请求者IP进行限流\n"},{"name":"CLUSTER","doc":" 实例限流(集群多后端实例)\n"}],"methods":[],"constructors":[]}

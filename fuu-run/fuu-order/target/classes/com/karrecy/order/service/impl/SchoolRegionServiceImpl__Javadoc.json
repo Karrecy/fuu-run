@@ -1,0 +1,1 @@
+{"doc":" <p>\n 学校楼栋管理表 服务实现类\n </p>\n","fields":[],"enumConstants":[],"methods":[{"name":"selectSchoolRegionListAll","paramTypes":["java.lang.Long"],"doc":" 校区区域分页查询\n @return\n"},{"name":"selectSchoolRegionList","paramTypes":["com.karrecy.order.domain.po.SchoolRegion"],"doc":" 校区区域列表查询\n @param schoolRegion\n @return\n"}],"constructors":[]}

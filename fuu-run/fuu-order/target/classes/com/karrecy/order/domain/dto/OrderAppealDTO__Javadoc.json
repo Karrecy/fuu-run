@@ -1,0 +1,1 @@
+{"doc":" 订单申诉请求体\n","fields":[{"name":"appealReason","doc":" 申诉理由\n"}],"enumConstants":[],"methods":[],"constructors":[]}

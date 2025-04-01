@@ -1,0 +1,1 @@
+{"doc":" <p>\n 小程序普通用户表 服务实现类\n </p>\n","fields":[],"enumConstants":[],"methods":[{"name":"createNewUser","paramTypes":[],"doc":" 创建新用户\n @return\n"},{"name":"selectPageUserWxList","paramTypes":["com.karrecy.system.domain.bo.UserWxQuery","com.karrecy.common.core.domain.PageQuery"],"doc":" 获取WX用户列表\n @param userWxQuery\n @param pageQuery\n @return\n"}],"constructors":[]}

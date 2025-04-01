@@ -1,0 +1,1 @@
+{"doc":" 学校楼栋返回体\n","fields":[{"name":"type","doc":" 0 区域 1 楼栋\n"},{"name":"name","doc":" 名称\n"},{"name":"remark","doc":" 备注\n"},{"name":"createTime","doc":" 创建时间\n"},{"name":"createId","doc":" 创建人\n"},{"name":"updateTime","doc":" 修改时间\n"},{"name":"updateId","doc":" 修改人\n"}],"enumConstants":[],"methods":[],"constructors":[]}

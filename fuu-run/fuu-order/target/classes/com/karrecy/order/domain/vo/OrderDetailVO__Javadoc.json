@@ -1,0 +1,1 @@
+{"doc":" 订单详情返回体\n","fields":[{"name":"orderMain","doc":" 订单基本表\n"},{"name":"orderPayment","doc":" 订单支付表\n"},{"name":"progress","doc":" 订单流程表\n"},{"name":"attachImages","doc":" 附件图片\n"},{"name":"attachFiles","doc":" 附件文件\n"},{"name":"completionImages","doc":" 完成凭证\n"}],"enumConstants":[],"methods":[],"constructors":[]}

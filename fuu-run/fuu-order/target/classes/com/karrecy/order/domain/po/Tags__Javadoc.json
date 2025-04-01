@@ -1,0 +1,1 @@
+{"doc":" tag表\n","fields":[{"name":"name","doc":" tag\n"},{"name":"remark","doc":" 备注\n"},{"name":"serviceType","doc":" 服务类型 0 帮取送 1 代买 2 万能服务\n"}],"enumConstants":[],"methods":[],"constructors":[]}

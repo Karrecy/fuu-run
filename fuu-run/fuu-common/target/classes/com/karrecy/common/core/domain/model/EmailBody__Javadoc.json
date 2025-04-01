@@ -1,0 +1,1 @@
+{"doc":" email登录对象\n","fields":[{"name":"email","doc":" 邮箱\n"},{"name":"code","doc":" 验证码\n"}],"enumConstants":[],"methods":[],"constructors":[]}

@@ -1,0 +1,1 @@
+{"doc":" 订单分页请求体\n","fields":[{"name":"orderOrTake","doc":" 下单或接单\n"},{"name":"schoolId","doc":" 学校id\n"},{"name":"serviceType","doc":" 服务类型 0 帮取送 1 代买 2 万能服务\n"},{"name":"tag","doc":" 标签\n"},{"name":"status","doc":" 订单状态\n"},{"name":"beginTime","doc":" 起始时间\n"},{"name":"endTime","doc":" 结束时间\n"}],"enumConstants":[],"methods":[],"constructors":[]}

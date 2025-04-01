@@ -1,0 +1,1 @@
+{"doc":" <p>\n 资金流动表 服务实现类\n </p>\n","fields":[],"enumConstants":[],"methods":[{"name":"listCurr","paramTypes":["com.karrecy.payment.domain.po.CapitalFlow","com.karrecy.common.core.domain.PageQuery"],"doc":" 当前用户资金明细查询\n @param capitalFlow\n @param pageQuery\n @return\n"}],"constructors":[]}

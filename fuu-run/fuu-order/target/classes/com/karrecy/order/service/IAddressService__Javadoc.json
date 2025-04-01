@@ -1,0 +1,1 @@
+{"doc":" <p>\n 用户地址表 服务类\n </p>\n","fields":[],"enumConstants":[],"methods":[{"name":"selectPageAddressList","paramTypes":["com.karrecy.order.domain.po.Address","com.karrecy.common.core.domain.PageQuery"],"doc":" 地址分页查询\n @param address\n @param pageQuery\n @return\n"},{"name":"selectListByUser","paramTypes":[],"doc":" 当前用户地址列表\n @return\n"}],"constructors":[]}

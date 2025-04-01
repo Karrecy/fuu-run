@@ -1,0 +1,1 @@
+{"doc":" 支付状态\n","fields":[],"enumConstants":[{"name":"UNPAID","doc":" 未支付\n"},{"name":"PAID","doc":" 已支付\n"},{"name":"REFUND_IN_PROGRESS","doc":" 退款中\n"},{"name":"REFUNDED","doc":" 已退款\n"}],"methods":[],"constructors":[]}

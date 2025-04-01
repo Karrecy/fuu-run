@@ -1,0 +1,1 @@
+{"doc":"","fields":[{"name":"boss","doc":" Boss Group：\n 一般设置为 1 到 2 个线程。由于 boss 组负责接受连接请求，通常不需要太多线程。\n Work Group：\n 线程数量建议设置为 CPU 核心数的 2 倍到 4 倍。例如，如果服务器有 8 个 CPU 核心，可以设置为 16 到 32 个线程。可以使用以下公式：\n\n     Work Threads = Core CPU Count × (2 到 4)\n"}],"enumConstants":[],"methods":[],"constructors":[]}

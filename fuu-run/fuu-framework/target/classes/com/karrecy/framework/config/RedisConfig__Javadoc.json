@@ -1,0 +1,1 @@
+{"doc":" redis配置\n","fields":[],"enumConstants":[],"methods":[{"name":"cacheManager","paramTypes":[],"doc":" 自定义缓存管理器 整合spring-cache\n"}],"constructors":[]}
