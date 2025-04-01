@@ -34,11 +34,9 @@
 
 小程序端前台
 
-![img](file:///C:\Users\Tao\AppData\Local\Temp\ksohtml1476\wps1.jpg)
-
-![img](file:///C:\Users\Tao\AppData\Local\Temp\ksohtml1476\wps2.png)![img](file:///C:\Users\Tao\AppData\Local\Temp\ksohtml1476\wps3.png)
 
 
+![img](file:///C:\Users\Tao\AppData\Local\Temp\ksohtml1476\wps2.pngTemp\ksohtml1476\wps3.png)
 
 
 
@@ -52,7 +50,7 @@
 
 
 
-## 2.xxx项目完整运行步骤
+## 2.项目完整运行步骤
 
 ### 2.1架构图
 
@@ -77,43 +75,34 @@
 │   └── pom.xml                # 父pom文件
 │
 ├── fuu-fun-admin/             # 管理端前端目录 （Antd-Pro）
-│   ├── config/                # 项目配置
-│   ├── public/                
-│   ├── src/               
-│   ├── type/                
-│   ├── package.json           
-│   ├── jsconfig.json      
-│   ├── jest.config.ts.json       
-│   └── tsconfig.json              
+│   ├── config/                # 配置文件
+│   ├── public/                # 静态资源
+│   ├── src/                   # 源代码
+│   ├── type/                  # 类型定义
+│   ├── package.json           # 依赖配置
+│   ├── jsconfig.json          # 编辑器配置
+│   ├── jest.config.ts.json    # 测试配置 
+│   └── tsconfig.json          # TS配置  
 │
 ├── fuu-fun-uni/               # 小程序端目录（uniapp）
-│   ├── common/           # 后台项目配置文件
-│   ├── pages/           # 后台项目配置文件
-│   ├── request/          # 后台项目配置文件
-│   ├── static/           # 后台项目配置文件
-│   ├── store/           # 后台项目配置文件
-│   ├── utils/           # 后台项目配置文件
-│   ├── App.vue           # 后台项目配置文件
-│   ├── index.html           # 后台项目配置文件
-│   ├── main.js           # 后台项目配置文件
-│   ├── manifest.json           # 后台项目配置文件
-│   ├── package.json           # 后台项目配置文件
-│   ├── pages.json           # 后台项目配置文件
-│   ├── uni.promisify.adaptor.js           # 后台项目配置文件
-│   └── uni.scss              # 后台说明文档
+│   ├── common/           	   # 公共模块
+│   ├── pages/                 # 页面目录
+│   ├── request/               # 网络请求
+│   ├── static/                # 静态文件
+│   ├── store/                 # 状态管理
+│   ├── utils/                 # 工具函数
+│   ├── App.vue                # 根组件
+│   ├── index.html             # 入口HTML
+│   ├── main.js                # 入口JS
+│   ├── manifest.json          # 小程序信息
+│   ├── package.json           # 项目配置
+│   ├── pages.json             # 页面配置
+│   ├── uni.promisify.adaptor.js           # Promise适配
+│   └── uni.scss               # 全局样式
 │
-├── docs/                      # 项目文档
-│   ├── design.md              # 设计文档
-│   ├── api.md                 # API 接口文档
-│   ├── setup.md               # 环境搭建与部署文档
-│   └── changelog.md           # 更新日志
+├── init.sql                     # 数据库初始化脚本
 │
-├── scripts/                   # 辅助脚本
-│   ├── deploy.sh              # 部署脚本
-│   ├── backup.sh              # 数据备份脚本
-│   └── init_db.sql            # 数据库初始化脚本
-│
-└── README.md                  # 项目总说明文档
+└── README.md                    # 项目总说明文档
 
 ```
 
