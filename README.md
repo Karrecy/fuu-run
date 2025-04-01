@@ -26,9 +26,7 @@
 
 ### 1.1功能概况
 
-1、xxx项目使用xxxxx技术，能快速xxxxxx，可提高工作效率和创造力。<br/>
-2、xxx项目能够结合<br/>
-3、xxxxxxxxxxxx。
+
 
 ### 1.3项目前台展示
 
@@ -36,16 +34,14 @@
 
 
 
-![img](file:///C:\Users\Tao\AppData\Local\Temp\ksohtml1476\wps2.pngTemp\ksohtml1476\wps3.png)
+![img](https://gitee.com/Karrecy/fuu-run/raw/master/xcx.png)
 
 
 
 
 ### 1.5项目后台展示
 
- ![img](file:///C:\Users\Tao\AppData\Local\Temp\ksohtml1476\wps4.jpg)
-
-![img](file:///C:\Users\Tao\AppData\Local\Temp\ksohtml1476\wps5.jpg)
+ ![img](https://gitee.com/Karrecy/fuu-run/raw/master/admin.png)
 
 
 
@@ -161,7 +157,4 @@
 
 ## 添加客服微信
 
- <div align=center>
-    <td ><img height="300" width="300" src="images/1.jpg"/></td>
-    <td ><img height="300" width="300" src="images/1.jpg"/></td>
- </div>
+Tao_Bliess
