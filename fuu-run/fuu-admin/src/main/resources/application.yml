@@ -28,7 +28,7 @@ email:
 
 # 高德配置
 amap:
-  key: a062d00a752a23a25edf401e6ef681d2
+  key: 你的key
 
 chat:
   websocket:
@@ -241,20 +241,20 @@ sa-token:
 wx:
   miniapp:
     configs:
-      - appid: wxc9a8fc1c44fef2aa
-        secret: 51e71fc8e9cbc5200a5127a31d79acd7
-        token: wxc9a8fc1c44fef2aa
-        aesKey: wxc9a8fc1c44fef2aa
-        msgDataFormat: wxc9a8fc1c44fef2aa
+      - appid:
+        secret:
+        token:
+        aesKey:
+        msgDataFormat:
 
   pay: #微信服务商支付
-      appId: wxc9a8fc1c44fef2aa
-      mchId: 1674491977
-#      returnUrl: http://test.singoval.com/notify/payNotify
-#      refundUrl: http://test.singoval.com/notify/refundNotify
-      returnUrl: http://test.singoval.com/dev/notify/payNotify
-      refundUrl: http://test.singoval.com/dev/notify/refundNotify
-      apiV3Key: fRAUWZL6HjtHUicHw5CNFxuWPvchAW33
+      appId:
+      mchId:
+      returnUrl: http://你的域名/notify/payNotify
+      refundUrl: http://你的域名/notify/refundNotify
+#      returnUrl: http://你的域名/dev/notify/payNotify
+#      refundUrl: http://你的域名/dev/notify/refundNotify
+      apiV3Key:
       privateKeyPath: classpath:cert/apiclient_key.pem
       privateCertPath: classpath:cert/apiclient_cert.pem
 

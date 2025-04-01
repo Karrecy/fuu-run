@@ -5,7 +5,7 @@ import {checkLogin,xcxLogin,getInfo,login} from "@/request/apis/login.js";
 	import {getSchool} from "@/request/apis/school.js";
 
 // 全局请求封装 http://localhost:8081
-const domain = '192.168.1.4'
+const domain = 'localhost' //使用localhost或局域网ip
 // const domain = 'test.singoval.com'
 const base_url = 'http://' + domain + ':8081'
 // const base_url = 'http://' + domain + '/dev' // 部署环境

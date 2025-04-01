@@ -39,6 +39,7 @@ package-lock.json
 *.log
 *.swp
 **/target/
+/cert/
 /bin/
 /build/
 /out/
