@@ -19,25 +19,60 @@
 福U跑腿是一款专注于校园场景的跑腿服务平台，提供以下核心功能：
 
 - 多校区管理
+- 多角色系统：管理员、校区代理、跑腿员、普通用户
+- 地址管理：快捷选址、地图选点
+- 敏感词检测
+- 申请跑腿
 - 在线下单与接单
-- 图片文件上传
-- 微信支付集成
+- 长时间未接单自动取消并退款
+- 图片文件上传功能
+- 集成微信支付
 - 余额提现功能
-- 实时在线沟通
+- 订单内实时在线沟通
 
-## 🖼️ 项目展示
+## ��️ 项目展示
 
 ### 小程序端界面
-![小程序界面](https://gitee.com/Karrecy/fuu-run/raw/master/xcx.png)
 
-### 管理后台界面
-![管理后台](https://gitee.com/Karrecy/fuu-run/raw/master/admin.png)
+<table>
+<tr>
+    <td><img src="https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/mini/万能帮服务.jpg" width="250"/></td>
+    <td><img src="https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/mini/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83.jpg" width="250"/></td>
+    <td><img src="https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/mini/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.jpg" width="250"/></td>
+</tr>
+<tr>
+    <td><img src="https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/mini/%E5%A1%AB%E5%86%99%E5%9C%B0%E5%9D%80.jpg" width="250"/></td>
+    <td><img src="https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/mini/%E8%AE%A2%E5%8D%95%E5%A4%A7%E5%8E%85.jpg" width="250"/></td>
+    <td><img src="https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/mini/%E8%B7%91%E8%85%BF%E4%B8%AD%E5%BF%83.jpg" width="250"/></td>
+</tr>
+<tr>
+    <td><img src="https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/mini/%E8%B7%91%E8%85%BF%E4%BB%8B%E7%BB%8D.jpg" width="250"/></td>
+    <td><img src="https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/mini/%E9%A6%96%E9%A1%B5.jpg" width="250"/></td>
+    <td></td>
+</tr>
+</table>
+
+
+### 管理后台界面（仅展示部分，其他在docImgs里查看）
+![管理后台](https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/admin/%E8%AE%A2%E5%8D%95%E7%AE%A1%E7%90%86.png)
+
+![管理后台](https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/admin/%E8%BD%AE%E6%92%AD%E5%9B%BE%E7%AE%A1%E7%90%86.png)
+
+![管理后台](https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/admin/%E5%8C%BA%E5%9F%9F%E7%AE%A1%E7%90%86.png)
+
+
+
+
 
 ## 🛠️ 技术架构
 
 ### 项目结构
 ```
 福U跑腿项目/
+├── deployment/                # 服务器部署
+│
+├── docImgs/                   # 系统图例展示
+│
 ├── fuu-fun/                   # 后端服务
 │   ├── fuu-admin/   		   # 服务入口模块
 │   ├── fuu-common/   		   # 通用工具模块
@@ -77,7 +112,7 @@
 1. 克隆项目到本地
 2. 创建数据库 `fuudb`
 3. 执行 `init.sql` 初始化数据库
-4. 配置 `application.yml`：
+4. 配置 `application.yml`：（这些都需要自己去申请）
    - 高德地图 API Key
    - 微信小程序配置
    - 微信支付配置
@@ -88,8 +123,14 @@
 ### 前端部署
 
 #### 小程序端
-- 环境要求：Node.js 16.13.1, npm 8.1.2
-- 开发工具：HBuilder X, 微信开发者工具
+- 环境要求：
+  - Node.js 16.13.1
+  - npm 8.1.2
+
+- 开发工具：
+  - HBuilder X
+  - 微信开发者工具
+
 - 部署步骤：
   1. 使用 HBuilder X 打开 `fuu-run-uni`
   2. 配置微信小程序 AppID
@@ -97,14 +138,17 @@
   4. 运行到小程序模拟器
 
 #### 管理后台
-- 环境要求：Node.js 16.13.1, npm 8.1.2
+- 环境要求：
+  - Node.js 16.13.1
+  - npm 8.1.2
+
 - 开发工具：VSCode
 - 部署步骤：
-  1. 打开 `fuu-fun-admin`
+  1. 打开 `fuu-run-admin`
   2. 安装依赖：`npm install`
   3. 启动开发服务器：`npm run start:dev`
 
-## �� 技术支持
+## 🛠️ 技术支持
 
 如有任何问题，请联系客服微信：Tao_Bliess
 
