@@ -240,7 +240,7 @@
 
 ## 🌝 小程序体验
 
-![管理后台](https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/admin/%E8%BD%AE%E6%92%AD%E5%9B%BE%E7%AE%A1%E7%90%86.png)
+![管理后台](https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%A0%81.jpg)
 
 ## 🙏 特别鸣谢
 
@@ -256,7 +256,7 @@
 
 如有任何问题，请联系客服微信：Tao_Bliess
 
-![管理后台](https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/admin/%E8%BD%AE%E6%92%AD%E5%9B%BE%E7%AE%A1%E7%90%86.png)
+![管理后台](https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/%E5%BE%AE%E4%BF%A1.jpg)
 
 ---
 
