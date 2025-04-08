@@ -1,16 +1,6 @@
 # 🚀 福U跑腿 - 校园跑腿服务平台
 
-<div align="center">
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.6-brightgreen.svg)](https://spring.io/projects/spring-boot)
-[![Vue](https://img.shields.io/badge/Vue-3.x-blue.svg)](https://vuejs.org/)
-[![Ant Design Pro](https://img.shields.io/badge/Ant%20Design%20Pro-4.x-blue.svg)](https://pro.ant.design/)
-[![UniApp](https://img.shields.io/badge/UniApp-3.x-green.svg)](https://uniapp.dcloud.io/)
-[![Sa-Token](https://img.shields.io/badge/Sa%20Token-1.34.0-orange.svg)](https://sa-token.dev33.cn/)
-[![Redis](https://img.shields.io/badge/Redis-7.x-red.svg)](https://redis.io/)
-[![MySQL](https://img.shields.io/badge/MySQL-8.x-blue.svg)](https://www.mysql.com/)
 
-</div>
 
 ## 📢 项目声明
 
@@ -46,9 +36,46 @@
 
 福U跑腿是一款专注于校园场景的综合性跑腿服务平台，采用前后端分离架构，基于 Spring Boot + Vue + Uni-app 开发。本项目致力于解决校园内快递代取、餐食代购等日常跑腿需求，为校园师生提供便捷、安全、高效的跑腿服务。
 
+
+
+### 项目结构
+
+```
+福U跑腿项目/
+├── deployment/                # 服务器部署
+│
+├── docImgs/                   # 系统图例展示
+│
+├── fuu-fun/                   # 后端服务
+│   ├── fuu-admin/   		   # 服务入口模块
+│   ├── fuu-common/   		   # 通用工具模块
+│   ├── fuu-framework/   	   # 框架模块
+│   ├── fuu-order/   		   # 跑腿订单模块
+│   ├── fuu-oss/   		       # OSS管理模块
+│   ├── fuu-payment/   		   # 支付模块
+│   ├── fuu-system/   		   # 系统管理模块
+│   └── pom.xml                # 父pom文件
+│
+├── fuu-fun-admin/             # 管理端前端 (Antd-Pro)
+│   ├── config/                # 配置文件
+│   ├── public/                # 静态资源
+│   ├── src/                   # 源代码
+│   └── ...                    # 其他配置文件
+│
+├── fuu-fun-uni/               # 小程序端 (uniapp)
+│   ├── common/           	   # 公共模块
+│   ├── pages/                 # 页面目录
+│   ├── static/                # 静态文件
+│   └── ...                    # 其他配置文件
+│
+└── init.sql                   # 数据库初始化脚本
+```
+
+## 
+
 ### 核心功能
 
-##### **🎃用户服务**
+##### **🔴用户服务**
 
 - **多角色系统**：管理员、校区代理、跑腿员、普通用户
 - **地址管理**：支持快捷选址、地图选点
@@ -59,18 +86,18 @@
 - **敏感词检测**：对编辑内容进行敏感词检测
 - **微信订阅消息**：订单状态、消息通知、退款状态变更时在微信内通知用户
 
-##### **🎄订单系统**
+##### **🟠订单系统**
 
 - **订单自动化机制**：长时间未付款、未接单自动取消，长时间未确认自动完成订单
 - **订单全生命周期管理**
 
-##### **🧨支付系统**
+##### **🟡支付系统**
 
 - **集成微信支付**
 - **余额提现功能**
 - **资金流动记录**
 
-##### **🎈运营管理**
+##### **🟢运营管理**
 
 - **多校区统一管理**
 - **系统管理**：系统监控、轮播图管理、全局配置
@@ -149,51 +176,15 @@
 
 
 
-
-
-## 🛠️ 技术架构
-
-### 项目结构
-```
-福U跑腿项目/
-├── deployment/                # 服务器部署
-│
-├── docImgs/                   # 系统图例展示
-│
-├── fuu-fun/                   # 后端服务
-│   ├── fuu-admin/   		   # 服务入口模块
-│   ├── fuu-common/   		   # 通用工具模块
-│   ├── fuu-framework/   	   # 框架模块
-│   ├── fuu-order/   		   # 跑腿订单模块
-│   ├── fuu-oss/   		       # OSS管理模块
-│   ├── fuu-payment/   		   # 支付模块
-│   ├── fuu-system/   		   # 系统管理模块
-│   └── pom.xml                # 父pom文件
-│
-├── fuu-fun-admin/             # 管理端前端 (Antd-Pro)
-│   ├── config/                # 配置文件
-│   ├── public/                # 静态资源
-│   ├── src/                   # 源代码
-│   └── ...                    # 其他配置文件
-│
-├── fuu-fun-uni/               # 小程序端 (uniapp)
-│   ├── common/           	   # 公共模块
-│   ├── pages/                 # 页面目录
-│   ├── static/                # 静态文件
-│   └── ...                    # 其他配置文件
-│
-└── init.sql                   # 数据库初始化脚本
-```
-
 ## 🚀 快速开始
 
 ### 准备工作
 
-- 申请高德地图 API Key
-- 申请微信小程序（个体户/公司）
-- 小程序认证（个体户30￥）
-- 开通微信支付
-- 购买OSS对象存储（建议阿里云OSS）
+- [申请高德地图 API Key](https://console.amap.com/dev/key/app)
+- [申请微信小程序](https://mp.weixin.qq.com/wxopen/waregister?action=step1)（个体户/公司）
+- [小程序认证](https://mp.weixin.qq.com/wxopen/verification?action=index&t=wx_verify/index&lang=zh_CN)（个体户30￥）
+- [开通微信支付](https://pay.weixin.qq.com/index.php/apply/applyment_home/guide_normal)
+- [购买OSS对象存储](https://www.aliyun.com/product/oss)（建议阿里云OSS）
 
 ### 后端部署
 
@@ -245,62 +236,27 @@
 
 ## 🚀 服务器部署
 
-### 环境要求
-- JDK 1.8+
-- MySQL 8.x
-- Redis 7.x
-- Nginx 1.18+
-- Node.js 16+
+- 尚未完成
 
-### 部署步骤
-1. 后端部署
-   ```bash
-   # 打包
-   mvn clean package
-   # 上传jar包到服务器
-   scp target/*.jar root@your-server:/opt/fuu-run/
-   # 运行
-   nohup java -jar fuu-run.jar --spring.profiles.active=prod &
-   ```
+## 🌝 小程序体验
 
-2. 前端部署
-   ```bash
-   # 打包
-   npm run build
-   # 上传到Nginx目录
-   scp -r dist/* root@your-server:/usr/share/nginx/html/
-   ```
-
-3. Nginx配置
-   ```nginx
-   server {
-       listen 80;
-       server_name your-domain;
-       
-       location / {
-           root /usr/share/nginx/html;
-           try_files $uri $uri/ /index.html;
-       }
-       
-       location /api {
-           proxy_pass http://localhost:8080;
-       }
-   }
-   ```
+![管理后台](https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/admin/%E8%BD%AE%E6%92%AD%E5%9B%BE%E7%AE%A1%E7%90%86.png)
 
 ## 🙏 特别鸣谢
 
-- [Ant Design Pro](https://pro.ant.design/) - 开箱即用的中台前端/设计解决方案 [![Stars](https://img.shields.io/github/stars/ant-design/ant-design-pro?style=social)](https://github.com/ant-design/ant-design-pro)
+- [Ant Design Pro](https://pro.ant.design/) - 开箱即用的中台前端/设计解决方案
 
-- [RuoYi-Vue](https://gitee.com/y_project/RuoYi-Vue) - 基于SpringBoot的权限管理系统 [![Stars](https://img.shields.io/github/stars/yangzongzhuan/RuoYi-Vue?style=social)](https://github.com/yangzongzhuan/RuoYi-Vue)
+- [RuoYi-Vue](https://gitee.com/y_project/RuoYi-Vue) - 基于SpringBoot的权限管理系统
 
-- [SensitiveWord](https://github.com/houbb/sensitive-word) - 基于 DFA 算法的敏感词过滤工具 [![Stars](https://img.shields.io/github/stars/houbb/sensitive-word?style=social)](https://github.com/houbb/sensitive-word)
+- [SensitiveWord](https://github.com/houbb/sensitive-word) - 基于 DFA 算法的敏感词过滤工具
 
-- [Sa-Token](https://sa-token.dev33.cn/) - 轻量级 Java 权限认证框架 [![Stars](https://img.shields.io/github/stars/dromara/Sa-Token?style=social)](https://github.com/dromara/Sa-Token)
+- [Sa-Token](https://sa-token.dev33.cn/) - 轻量级 Java 权限认证框架
 
 ## 🛠️ 技术支持
 
 如有任何问题，请联系客服微信：Tao_Bliess
+
+![管理后台](https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/admin/%E8%BD%AE%E6%92%AD%E5%9B%BE%E7%AE%A1%E7%90%86.png)
 
 ---
 
