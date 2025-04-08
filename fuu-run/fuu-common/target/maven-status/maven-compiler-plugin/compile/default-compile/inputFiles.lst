@@ -1,85 +1,87 @@
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\model\EmailBody.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\model\LoginBody.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\helper\LoginHelper.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\annotation\Sensitive.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\ip\RegionUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\redis\QueueUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\validate\QueryGroup.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\xss\XssValidator.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\OrderStatus.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\config\FuuConfig.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\entity\UserPc.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\MessageUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\entity\StatisticsDaily.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\DateUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\redis\CacheUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\entity\RolePerm.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\model\ChatBody.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\Status.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\constant\CacheConstants.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\controller\BaseController.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\constant\QueueNames.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\ServiceType.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\model\LoginUser.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\SpringUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\service\EmailService.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\UserType.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\ServletUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\service\SensitiveService.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\model\WeatherResponse.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\SensitiveStrategy.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\DeviceType.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\page\TableDataInfo.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\wx\WxHelper.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\service\OssCommonService.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\PayStatus.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\OrderException.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\constant\Constants.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\mapper\BaseMapperPlus.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\user\UserPasswordRetryLimitExceedException.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\user\UserException.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\sql\SqlUtil.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\filter\XssFilter.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\ip\AddressUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\xss\Xss.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\config\WxMaConfiguration.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\file\FileUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\user\UserPasswordNotMatchException.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\annotation\RateLimiter.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\HttpMethod.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\Arith.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\redis\RedisUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\model\WeatherInfo.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\service\CarouselImageService.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\CapitalType.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\FileType.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\LimitType.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\jackson\SensitiveJsonSerializer.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\constant\CacheNames.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\BaseEntity.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\StringUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\validate\EditGroup.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\handler\JsonTypeHandler.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\JsonUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\validate\AddGroup.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\StreamUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\entity\UserWx.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\constant\UserConstants.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\PayException.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\BigDecimalUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\base\BaseException.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\R.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\ip\IpUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\BeanCopyUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\file\MimeTypeUtils.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\filter\XssHttpServletRequestWrapper.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\constant\HttpStatus.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\ServiceException.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\config\properties\WxMaProperties.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\UtilException.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\PageQuery.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\config\properties\EmailProperties.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\entity\User.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\filter\RepeatableFilter.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\filter\RepeatedlyRequestWrapper.java
-E:\Projects\fuu-run -test\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\entity\Perm.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\StreamUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\BaseEntity.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\SpringUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\entity\Perm.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\constant\HttpStatus.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\entity\User.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\redis\RedisUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\handler\JsonTypeHandler.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\ip\AddressUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\ip\IpUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\annotation\Sensitive.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\ServletUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\xss\Xss.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\model\LoginBody.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\annotation\RateLimiter.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\filter\XssHttpServletRequestWrapper.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\ServiceException.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\redis\CacheUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\xss\XssValidator.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\HttpMethod.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\file\MimeTypeUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\UtilException.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\controller\BaseController.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\entity\UserWx.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\PageQuery.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\sql\SqlUtil.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\jackson\SensitiveJsonSerializer.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\sensitive\SensitiveValidator.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\mapper\BaseMapperPlus.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\Arith.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\sensitive\SensitiveWord.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\validate\EditGroup.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\filter\RepeatableFilter.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\model\EmailBody.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\page\TableDataInfo.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\Status.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\user\UserPasswordNotMatchException.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\ip\RegionUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\DateUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\OrderException.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\MessageUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\validate\QueryGroup.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\StringUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\constant\CacheNames.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\config\properties\WxMaProperties.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\service\SensitiveService.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\model\WeatherResponse.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\config\FuuConfig.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\LimitType.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\config\WxMaConfiguration.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\entity\RolePerm.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\DeviceType.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\filter\RepeatedlyRequestWrapper.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\service\CarouselImageService.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\user\UserPasswordRetryLimitExceedException.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\constant\QueueNames.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\ServiceType.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\base\BaseException.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\FileType.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\UserType.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\redis\QueueUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\entity\UserPc.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\model\WeatherInfo.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\BeanCopyUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\BigDecimalUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\model\LoginUser.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\model\ChatBody.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\helper\LoginHelper.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\file\FileUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\wx\WxHelper.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\constant\Constants.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\validate\AddGroup.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\R.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\SensitiveStrategy.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\constant\UserConstants.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\PayException.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\OrderStatus.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\constant\CacheConstants.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\service\EmailService.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\config\properties\EmailProperties.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\domain\entity\StatisticsDaily.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\CapitalType.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\exception\user\UserException.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\utils\JsonUtils.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\enums\PayStatus.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\core\service\OssCommonService.java
+E:\Projects\fuu-run\fuu-run\fuu-common\src\main\java\com\karrecy\common\filter\XssFilter.java

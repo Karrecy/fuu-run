@@ -165,19 +165,34 @@
 			},
 			chooseLocation(){
 				let that = this
-				uni.chooseLocation({
-					latitude:this.submitForm.lat || '',
-					longitude:this.submitForm.lon || '',
-					success(res) {
-						console.log(res);
-						that.submitForm.title = res.name
-						that.submitForm.lat = res.latitude
-						that.submitForm.lon = res.longitude
-					},
-					fail(e) {
-						console.log(e);
-					}
-				})
+				if(this.submitForm.lat == '') {
+					uni.chooseLocation({
+						success(res) {
+							console.log(res);
+							that.submitForm.title = res.name
+							that.submitForm.lat = res.latitude
+							that.submitForm.lon = res.longitude
+						},
+						fail(e) {
+							console.log(e);
+						}
+					})
+				}
+				else {
+					uni.chooseLocation({
+						latitude:this.submitForm.lat || null,
+						longitude:this.submitForm.lon || null,
+						success(res) {
+							console.log(res);
+							that.submitForm.title = res.name
+							that.submitForm.lat = res.latitude
+							that.submitForm.lon = res.longitude
+						},
+						fail(e) {
+							console.log(e);
+						}
+					})
+				}
 			},
 			addressClose(e){
 				console.log(e);

@@ -33,6 +33,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
 
 
@@ -61,20 +62,34 @@ public class PayListener implements ApplicationListener<ApplicationReadyEvent> {
         QueueUtils.subscribeBlockingQueue(queueName, (String data) -> {
             // 观察接收时间
             log.info("通道: {}, 收到数据: {}", queueName, data);
-            switch (queueName) {
-                case QueueNames.ORDER_PAY_SUCCESS:
-                    paySuccess(data);
-                    break;
-                case QueueNames.ORDER_REFUND_SUCCESS:
-                    refundSuccess(data);
-                    break;
-            }
+            // 使用异步方式处理回调
+            CompletableFuture.runAsync(() -> {
+                try {
+                    switch (queueName) {
+                        case QueueNames.ORDER_PAY_SUCCESS:
+                            paySuccess(data);
+                            break;
+                        case QueueNames.ORDER_REFUND_SUCCESS:
+                            refundSuccess(data);
+                            break;
+                    }
+                } catch (Exception e) {
+                    log.error("处理队列消息失败(支付回调）: {}", e.getMessage(), e);
+                }
+            });
+//            switch (queueName) {
+//                case QueueNames.ORDER_PAY_SUCCESS:
+//                    paySuccess(data);
+//                    break;
+//                case QueueNames.ORDER_REFUND_SUCCESS:
+//                    refundSuccess(data);
+//                    break;
+//            }
 
 
         }, true);
         return R.ok("操作成功");
     }
-    @Async
     @Transactional
     public void paySuccess(String orderNum) {
         Long orderId = Long.valueOf(orderNum);
@@ -94,8 +109,8 @@ public class PayListener implements ApplicationListener<ApplicationReadyEvent> {
             Integer autoCancelTtl = orderMainDB.getAutoCancelTtl();
             QueueUtils.addDelayedQueueObject(
                     QueueNames.ORDER_PENDING_ACCEPT_CANCEL,
-                    orderId,1,
-                    TimeUnit.MINUTES);
+                    orderId,autoCancelTtl,
+                    TimeUnit.SECONDS);
 
             //记录活跃用户
             RedisUtils.recordAU(

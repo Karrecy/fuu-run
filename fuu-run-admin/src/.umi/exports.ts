@@ -5,21 +5,21 @@
 export { defineApp } from './core/defineApp'
 export type { RuntimeConfig } from './core/defineApp'
 // plugins
-export { Access, useAccess, useAccessMarkedRoutes } from 'E:/git/fuu-run/fuu-run-admin/src/.umi/plugin-access';
-export { useAntdConfig, useAntdConfigSetter } from 'E:/git/fuu-run/fuu-run-admin/src/.umi/plugin-antd';
-export { addLocale, setLocale, getLocale, getIntl, useIntl, injectIntl, formatMessage, FormattedMessage, getAllLocales, FormattedDate, FormattedDateParts, FormattedDisplayName, FormattedHTMLMessage, FormattedList, FormattedNumber, FormattedNumberParts, FormattedPlural, FormattedRelativeTime, FormattedTime, FormattedTimeParts, IntlProvider, RawIntlProvider, SelectLang } from 'E:/git/fuu-run/fuu-run-admin/src/.umi/plugin-locale';
-export { Provider, useModel } from 'E:/git/fuu-run/fuu-run-admin/src/.umi/plugin-model';
-export { useRequest, UseRequestProvider, request, getRequestInstance } from 'E:/git/fuu-run/fuu-run-admin/src/.umi/plugin-request';
+export { Access, useAccess, useAccessMarkedRoutes } from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/src/.umi/plugin-access';
+export { useAntdConfig, useAntdConfigSetter } from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/src/.umi/plugin-antd';
+export { addLocale, setLocale, getLocale, getIntl, useIntl, injectIntl, formatMessage, FormattedMessage, getAllLocales, FormattedDate, FormattedDateParts, FormattedDisplayName, FormattedHTMLMessage, FormattedList, FormattedNumber, FormattedNumberParts, FormattedPlural, FormattedRelativeTime, FormattedTime, FormattedTimeParts, IntlProvider, RawIntlProvider, SelectLang } from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/src/.umi/plugin-locale';
+export { Provider, useModel } from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/src/.umi/plugin-model';
+export { useRequest, UseRequestProvider, request, getRequestInstance } from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/src/.umi/plugin-request';
 // plugins types.d.ts
-export * from 'E:/git/fuu-run/fuu-run-admin/src/.umi/plugin-access/types.d';
-export * from 'E:/git/fuu-run/fuu-run-admin/src/.umi/plugin-antd/types.d';
-export * from 'E:/git/fuu-run/fuu-run-admin/src/.umi/plugin-layout/types.d';
-export * from 'E:/git/fuu-run/fuu-run-admin/src/.umi/plugin-request/types.d';
+export * from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/src/.umi/plugin-access/types.d';
+export * from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/src/.umi/plugin-antd/types.d';
+export * from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/src/.umi/plugin-layout/types.d';
+export * from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/src/.umi/plugin-request/types.d';
 // @umijs/renderer-*
-export { createBrowserHistory, createHashHistory, createMemoryHistory, Helmet, HelmetProvider, createSearchParams, generatePath, matchPath, matchRoutes, Navigate, NavLink, Outlet, resolvePath, useLocation, useMatch, useNavigate, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams, useAppData, useClientLoaderData, useLoaderData, useRouteProps, useSelectedRoutes, useServerLoaderData, renderClient, __getRoot, Link, useRouteData, __useFetcher, withRouter } from 'E:/git/fuu-run/fuu-run-admin/node_modules/@umijs/renderer-react';
-export type { History, ClientLoader } from 'E:/git/fuu-run/fuu-run-admin/node_modules/@umijs/renderer-react'
+export { createBrowserHistory, createHashHistory, createMemoryHistory, Helmet, HelmetProvider, createSearchParams, generatePath, matchPath, matchRoutes, Navigate, NavLink, Outlet, resolvePath, useLocation, useMatch, useNavigate, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams, useAppData, useClientLoaderData, useLoaderData, useRouteProps, useSelectedRoutes, useServerLoaderData, renderClient, __getRoot, Link, useRouteData, __useFetcher, withRouter } from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/@umijs/renderer-react';
+export type { History, ClientLoader } from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/@umijs/renderer-react'
 // umi/client/client/plugin
-export { ApplyPluginsType, PluginManager } from 'E:/git/fuu-run/fuu-run-admin/node_modules/umi/client/client/plugin.js';
+export { ApplyPluginsType, PluginManager } from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/umi/client/client/plugin.js';
 export { history, createHistory } from './core/history';
 export { terminal } from './core/terminal';
 // react ssr

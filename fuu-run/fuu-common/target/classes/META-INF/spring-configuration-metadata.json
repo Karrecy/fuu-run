@@ -30,7 +30,8 @@
     {
       "name": "email.port",
       "type": "java.lang.Integer",
-      "sourceType": "com.karrecy.common.config.properties.EmailProperties"
+      "sourceType": "com.karrecy.common.config.properties.EmailProperties",
+      "defaultValue": 0
     },
     {
       "name": "email.user",

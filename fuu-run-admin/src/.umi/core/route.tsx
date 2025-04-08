@@ -44,8 +44,8 @@ export async function getRoutes() {
 '34': React.lazy(() => import(/* webpackChunkName: "p__User__profile__index" */'@/pages/User/profile/index.tsx')),
 '35': React.lazy(() => import('./EmptyRoute')),
 '36': React.lazy(() => import(/* webpackChunkName: "p__404" */'@/pages/404.tsx')),
-'ant-design-pro-layout': React.lazy(() => import(/* webpackChunkName: "umi__plugin-layout__Layout" */'E:/git/fuu-run/fuu-run-admin/src/.umi/plugin-layout/Layout.tsx')),
-'umi/plugin/openapi': React.lazy(() => import(/* webpackChunkName: "umi__plugin-openapi__openapi" */'E:/git/fuu-run/fuu-run-admin/src/.umi/plugin-openapi/openapi.tsx')),
+'ant-design-pro-layout': React.lazy(() => import(/* webpackChunkName: "umi__plugin-layout__Layout" */'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/src/.umi/plugin-layout/Layout.tsx')),
+'umi/plugin/openapi': React.lazy(() => import(/* webpackChunkName: "umi__plugin-openapi__openapi" */'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/src/.umi/plugin-openapi/openapi.tsx')),
 },
   };
 }

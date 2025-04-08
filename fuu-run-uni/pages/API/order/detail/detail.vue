@@ -130,6 +130,8 @@
 				<div>
 					<span>取消原因：</span>
 					<span>{{order.progress.cancelReason == null ? '暂无':order.progress.cancelReason}}</span>
+					<span v-show="order.orderPayment.paymentStatus == 2">已发起退款，请耐心等待</span>
+					<span v-show="order.orderPayment.paymentStatus == 3">退款已到账</span>
 				</div>
 				<div></div>
 			</div>
@@ -502,11 +504,15 @@
 			// this.initData()
 		},	
 		onPullDownRefresh() {
-			console.log(11);
 			this.getDetail(this.order.orderMain.id)
 			//uni.stopPullDownRefresh()
 		},
 		methods: {
+			toHome() {
+				uni.redirectTo({
+					url:"/pages/tabBar/index/index"
+				})
+			},
 			openLocation(address) {
 				console.log(address);
 				uni.openLocation({
@@ -725,6 +731,9 @@
 				this.cancelForm.orderId = this.order.orderMain.id
 				postCancelOrder(this.cancelForm).then(res => {
 					console.log(res);
+					setTimeout(() => {
+						this.getDetail(this.order.orderMain.id)
+					},800)
 				})
 				.catch(err => {
 					uni.showToast({

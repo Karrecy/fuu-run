@@ -45,7 +45,7 @@
 					</div>
 					<div @click="showFilePopup = true" class="myImage" style="color: #fa4700;left: 114px;">
 						<nut-icon name="/static/icons/添加文件.png"></nut-icon>
-						<span style="height: 100%;vertical-align: middle;">补充物品图</span>
+						<span style="height: 100%;vertical-align: middle;">补充附件</span>
 					</div>
 				</div>
 		

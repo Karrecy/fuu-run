@@ -3,7 +3,7 @@
 // DO NOT CHANGE IT MANUALLY!
 import React from 'react';
 import { Avatar, version, Dropdown, Menu, Spin } from 'antd';
-import { LogoutOutlined } from 'E:/git/fuu-run/fuu-run-admin/node_modules/@ant-design/icons';
+import { LogoutOutlined } from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/@ant-design/icons';
 import { SelectLang } from '@@/plugin-locale';
 
 export function getRightRenderContent (opts: {

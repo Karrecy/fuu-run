@@ -9,10 +9,10 @@ class WebSocketClient {
     const host = window.location.host;
     // 如果是开发环境，使用开发服务器地址
     if (process.env.NODE_ENV === 'development') {
-      this.url = 'ws://localhost:4400';
+      this.url = 'ws://localhost:4400/ws';
     } else {
       // 生产环境使用相对路径
-      this.url = `${protocol}//${host}:4400`;
+      this.url = `${protocol}//${host}/ws`;
     }
   }
 

@@ -4,15 +4,15 @@
 import React from 'react';
 import { ConfigProvider } from 'antd';
 
-import moment from 'E:/git/fuu-run/fuu-run-admin/node_modules/dayjs';
-import 'E:/git/fuu-run/fuu-run-admin/node_modules/dayjs/locale/bn-bd';
-import 'E:/git/fuu-run/fuu-run-admin/node_modules/dayjs/locale/en';
-import 'E:/git/fuu-run/fuu-run-admin/node_modules/dayjs/locale/fa';
-import 'E:/git/fuu-run/fuu-run-admin/node_modules/dayjs/locale/id';
-import 'E:/git/fuu-run/fuu-run-admin/node_modules/dayjs/locale/ja';
-import 'E:/git/fuu-run/fuu-run-admin/node_modules/dayjs/locale/pt-br';
-import 'E:/git/fuu-run/fuu-run-admin/node_modules/dayjs/locale/zh-cn';
-import 'E:/git/fuu-run/fuu-run-admin/node_modules/dayjs/locale/zh-tw';
+import moment from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/dayjs';
+import 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/dayjs/locale/bn-bd';
+import 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/dayjs/locale/en';
+import 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/dayjs/locale/fa';
+import 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/dayjs/locale/id';
+import 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/dayjs/locale/ja';
+import 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/dayjs/locale/pt-br';
+import 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/dayjs/locale/zh-cn';
+import 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/dayjs/locale/zh-tw';
 import { RawIntlProvider, getLocale, getDirection , setIntl, getIntl, localeInfo, event, LANG_CHANGE_EVENT } from './localeExports';
 
 

@@ -545,6 +545,7 @@ public class OrderMainServiceImpl extends ServiceImpl<OrderMainMapper, OrderMain
             else {
                 throw new OrderException("当前状态不可取消");
             }
+            orderPaymentDB.setRefundPendingTime(LocalDateTime.now());
 
         }
         //跑腿员取消
@@ -571,6 +572,8 @@ public class OrderMainServiceImpl extends ServiceImpl<OrderMainMapper, OrderMain
                         orderPaymentDB.getActualPayment(),
                         orderPaymentDB.getActualPayment() //全额退款
                 );
+                orderPaymentDB.setRefundPendingTime(LocalDateTime.now());
+
                 //扣除信用分
                 runner.setCreditScore(runner.getCreditScore() - fuuConfig.getCreditDeduction());
                 userWxMapper.updateById(runner);
@@ -587,6 +590,8 @@ public class OrderMainServiceImpl extends ServiceImpl<OrderMainMapper, OrderMain
                         orderPaymentDB.getActualPayment(),
                         orderPaymentDB.getActualPayment() //全额退款
                 );
+                orderPaymentDB.setRefundPendingTime(LocalDateTime.now());
+
             }
         } else {
             throw new OrderException("没有权限取消订单");
@@ -600,6 +605,7 @@ public class OrderMainServiceImpl extends ServiceImpl<OrderMainMapper, OrderMain
         orderProgressDB.setCancelTime(LocalDateTime.now());
         orderProgressDB.setCancelUserId(uid);
         orderProgressMapper.updateById(orderProgressDB);
+        orderPaymentMapper.updateById(orderPaymentDB);
     }
 
     /**

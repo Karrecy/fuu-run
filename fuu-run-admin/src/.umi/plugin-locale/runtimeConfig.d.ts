@@ -3,7 +3,7 @@
 import {
   IntlCache,
   createIntl,
-} from 'E:/git/fuu-run/fuu-run-admin/node_modules/@umijs/plugins/node_modules/react-intl';
+} from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/@umijs/plugins/node_modules/react-intl';
 type OptionalIntlConfig = Omit<Parameters<typeof createIntl>[0], 'locale' | 'defaultLocale'>;
 export interface IRuntimeConfig {
     locale?: {

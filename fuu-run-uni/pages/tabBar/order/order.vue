@@ -91,7 +91,7 @@
 			
 				</div>
 				<div class="orderBot">
-					<span class="orderTime">1分钟前</span>
+					<span class="orderTime">{{item.timeAgo}}</span>
 					<nut-button @click="toOrderDetailRunner(item)" type="info">查看详情</nut-button>
 				</div>
 			</div>

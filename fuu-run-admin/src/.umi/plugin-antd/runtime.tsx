@@ -8,7 +8,7 @@ import {
 import { ApplyPluginsType } from 'umi';
 import { getPluginManager } from '../core/plugin';
 import { AntdConfigContext, AntdConfigContextSetter } from './context';
-import merge from 'E:/git/fuu-run/fuu-run-admin/node_modules/lodash/merge'
+import merge from 'E:/Projects/fuu-run/fuu-run-admin/fuu-run-admin/node_modules/lodash/merge'
 
 let cacheAntdConfig = null;
 

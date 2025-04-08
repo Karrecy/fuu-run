@@ -194,7 +194,7 @@
 		</div>
 		<nut-cell @click="showImagePopup = true" v-if="order.attachImages.length > 0" is-link title="附加图片" :desc="order.attachImages.length + '张'"></nut-cell>
 		<nut-cell @click="showFilePopup = true" v-if="order.attachFiles.length > 0" is-link title="附加文件" :desc="order.attachFiles.length + '个'"></nut-cell>
-		<nut-cell  title="预计赏金" :desc="'￥' + order.moneyReward"></nut-cell>
+		<nut-cell  title="预计赏金" :desc="order.moneyReward + '￥'"></nut-cell>
 		 <nut-collapse @change="collapseChange" v-model="activeName" :accordion="true" > 
 		    <nut-collapse-item :title="collapseText" :name="1" rotate="-180">
 				<nut-cell v-if="order.orderMain.weight != null" title="物品重量" :desc="order.orderMain.weight"></nut-cell>

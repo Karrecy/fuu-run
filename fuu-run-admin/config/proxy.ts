@@ -13,7 +13,8 @@ export default {
   dev: {
     // localhost:8000/api/** -> https://preview.pro.ant.design/api/**
     '/dev/': {
-      target: 'http://localhost:8081',
+      target: 'https://fuurun.singoval.com/dev',
+      // target: 'http://localhost:8081',
       changeOrigin: true,
       pathRewrite: { '^/dev/': '' },
     },
