@@ -98,7 +98,7 @@ spring:
     # rewriteBatchedStatements=true 批处理优化 大幅提升批量插入更新删除性能(对数据库有性能损耗 使用批量操作应考虑性能问题)
     url: jdbc:mysql://localhost:3306/fuudb?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&autoReconnect=true&rewriteBatchedStatements=true
     username: root
-    password: Karrecy_210721
+    password: 你的密码
 
 # MyBatisPlus配置
 # https://baomidou.com/config/
@@ -249,7 +249,7 @@ wx:
 
   pay: #微信服务商支付
       appId: #你的appid
-      mchId: 1674491977
+      mchId: #你的mchId
       returnUrl: http://你的域名/notify/payNotify
       refundUrl: http://你的域名/notify/refundNotify
 #      returnUrl: https://你的域名/dev/notify/payNotify

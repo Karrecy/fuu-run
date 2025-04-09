@@ -5,13 +5,13 @@ import {checkLogin,xcxLogin,getInfo,login} from "@/request/apis/login.js";
 	import {getSchool} from "@/request/apis/school.js";
 
 // 全局请求封装 http://localhost:8081
-// const domain = 'localhost' //使用localhost或局域网ip
-const domain = 'fuurun.singoval.com'
-// const base_url = 'http://' + domain + ':8081'
-const base_url = 'https://' + domain + '/dev' // 部署环境
+const domain = 'localhost' //使用localhost或局域网ip
+// const domain = '你的域名'
+const base_url = 'http://' + domain + ':8081'
+// const base_url = 'https://' + domain + '/dev' // 部署环境
 export const upload_url = base_url + '/system/oss/upload'
-// export const ws_url = 'ws://'+ domain +':4400'
-export const ws_url = 'wss://'+ domain +'/ws'
+export const ws_url = 'ws://'+ domain +':4400'
+// export const ws_url = 'wss://'+ domain +'/ws' // 部署环境
 
 function uploadFile1(filePath, formData) {
 	return new Promise((resolve, reject) => {
