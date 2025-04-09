@@ -238,7 +238,8 @@
 
 ​	前往deployment查看
 
-- [快速部署服务器](https://github.com/Karrecy/fuu-run/blob/master/deployment/快速部署服务器.md)
+- [快速部署服务器（github）](https://github.com/Karrecy/fuu-run/blob/master/deployment/快速部署服务器.md)
+- [快速部署服务器（gitee）](https://gitee.com/Karrecy/fuu-run/blob/master/deployment/快速部署服务器.md)
 
 ## 🌝 小程序体验
 
