@@ -21,14 +21,14 @@ fuu:
   # 用户地址上限
   max-address: 20
 email:
-  host: smtp.163.com
-  port: 25
-  user: karrecy2002@163.com
-  pass: VNkSySSzpK2vLmYu
+  host: #邮箱服务器
+  port: #端口
+  user: #你的邮箱地址
+  pass: #密钥
 
 # 高德配置
 amap:
-  key: a062d00a752a23a25edf401e6ef681d2
+  key: #你的key
 
 chat:
   websocket:
@@ -235,26 +235,26 @@ sa-token:
   # token前缀
   token-prefix: "Bearer"
   # jwt秘钥
-  jwt-secret-key: Karrecy_210721
+  jwt-secret-key: #你的jwt秘钥
   auto-renew: true
 
 wx:
   miniapp:
     configs:
-      - appid: wxc9a8fc1c44fef2aa
-        secret: 51e71fc8e9cbc5200a5127a31d79acd7
-        token: wxc9a8fc1c44fef2aa
-        aesKey: wxc9a8fc1c44fef2aa
-        msgDataFormat: wxc9a8fc1c44fef2aa
+      - appid: #你的appid
+        secret: #你的secret
+        token: #你的token
+        aesKey: #你的aesKey
+        msgDataFormat: #你的msgDataFormat
 
   pay: #微信服务商支付
-      appId: wxc9a8fc1c44fef2aa
+      appId: #你的appid
       mchId: 1674491977
-#      returnUrl: http://test.singoval.com/notify/payNotify
-#      refundUrl: http://test.singoval.com/notify/refundNotify
-      returnUrl: https://fuurun.singoval.com/dev/notify/payNotify
-      refundUrl: https://fuurun.singoval.com/dev/notify/refundNotify
-      apiV3Key: fRAUWZL6HjtHUicHw5CNFxuWPvchAW33
+      returnUrl: http://你的域名/notify/payNotify
+      refundUrl: http://你的域名/notify/refundNotify
+#      returnUrl: https://你的域名/dev/notify/payNotify
+#      refundUrl: https://你的域名/dev/notify/refundNotify
+      apiV3Key: #你的apiV3Key
       privateKeyPath: classpath:cert/apiclient_key.pem
       privateCertPath: classpath:cert/apiclient_cert.pem
 
