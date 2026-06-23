@@ -8,10 +8,26 @@
 ❤️❤️❤️如用于毕业设计、答辩等用途，下方联系作者❤️❤️❤️
 ```
 
+> ## 🔥 福U跑腿 2.0 商业版已上线！
+>
+> **不想自己部署？想快速接入校区运营？** 2.0 商业版现已开放，开箱即用，无需自行搭建服务器！
+>
+> **相比开源版（1.0），2.0 商业版新增：**
+> - **SaaS 多校区平台** — 一键接入，独立管理，快速开站
+> - **全新 UI / 交互体验** — 更现代、更流畅的管理后台与小程序
+> - **更完善的运营工具** — 数据看板、营销活动、自动化结算等
+> - **持续更新与技术支持** — 专属售后，省心省力
+>
+> 👉 **[立即体验 2.0 商业版 管理后台](https://campus-admin.fuurun.singoval.com/portal)**
+>
+> 有意向接入或了解详情，请联系微信：**Tao_Bliess**
+
+---
 
 ## 📢 项目声明
 
-- 本项目仅用于学习交流目的，不在任何平台出售，如有发现请积极举报
+- 本项目（1.0 开源版）仅用于学习交流目的，不在任何平台出售，如有发现请积极举报
+- 如需商业运营，请使用 [2.0 商业版](https://campus-admin.fuurun.singoval.com/portal)
 - 本项目是一个全栈项目，包含完整的前后端实现
 - 如果本项目对您有所帮助，欢迎给个 ⭐ Star 支持
 
@@ -264,9 +280,15 @@
 
 ## 🛠️ 技术支持
 
-如有任何问题，请联系客服微信：Tao_Bliess
+如有任何问题，请联系客服微信：**Tao_Bliess**
 
-![管理后台](https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/%E5%BE%AE%E4%BF%A1.jpg)
+![微信](https://gitee.com/Karrecy/fuu-run/raw/master/docImgs/%E5%BE%AE%E4%BF%A1.jpg)
+
+### 🔗 福U跑腿 2.0 商业版
+
+想直接商用？省去部署烦恼，开箱即用，一键接入校区！
+
+👉 **平台地址：[https://campus-admin.fuurun.singoval.com/portal](https://campus-admin.fuurun.singoval.com/portal)**
 
 ---
 
